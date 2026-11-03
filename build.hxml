@@ -1,0 +1,7 @@
+-lib ashui
+-lib ashui-components
+--macro ashui.core.render.UiFramework.register()
+--macro ashui.ui.Markup.enable()
+-cp src
+-main Main
+-hl bin/app.hl

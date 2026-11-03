@@ -1,0 +1,55 @@
+{
+	"run": {
+		"runner": "ash",
+		"framework": "ashui",
+		"previews": {
+			"hl": {
+				"arguments": [],
+				"buildCommand": "",
+				"buildFlags": [
+					"-O3",
+					"--codegen-opt-level",
+					"0",
+					"--target",
+					"wasm32-wasip1-threads"
+				],
+				"compiler": "haxe",
+				"compilerFlags": [
+					"-dce",
+					"full"
+				],
+				"executable": "",
+				"flags": [],
+				"framework": "ashui",
+				"mode": "browser",
+				"previewDirectory": "",
+				"previewEntry": "index.html",
+				"program": "",
+				"runner": "ash",
+				"target": "hl"
+			}
+		},
+		"target": "hl",
+		"targets": {
+			"hl": {
+				"arguments": [],
+				"buildCommand": "",
+				"buildFlags": [],
+				"compiler": "haxe",
+				"compilerFlags": [],
+				"executable": "",
+				"flags": [
+					"--preset",
+					"application"
+				],
+				"framework": "ashui",
+				"mode": "process",
+				"previewDirectory": "",
+				"previewEntry": "index.html",
+				"program": "",
+				"runner": "ash",
+				"target": "hl"
+			}
+		}
+	}
+}
